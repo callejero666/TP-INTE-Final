@@ -7,10 +7,10 @@ export function Principal() {
     return (
         <section>
             <h1>Bienvenido a la Página Principal</h1>
-            <nav>
+            <div className="button-container">
                 <button onClick={() => navigate()}>MUSICA</button>
                 <button onClick={() => navigate()}>CHAT</button>
-            </nav>
+            </div>
         </section>
     );
 }

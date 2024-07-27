@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Principal } from './componentes/principal';
+import { Principal } from './componentes/Principal';
 import { Registro } from './componentes/Registro';
 import { Navbar } from './componentes/Navbar';
-import { Login } from './componentes/login';
+import { Login } from './componentes/Login';
 import './App.css';
 
 function App() {

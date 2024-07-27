@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #863030;
   background-color: #242424;
 
   font-synthesis: none;
@@ -24,6 +24,12 @@ body {
   flex-direction: column;
   min-width: 320px;
   background-color: inherit; /* Heredar el fondo del :root */
+  background-image: url('/public/fondo-degradado-ui-ux_23-2149065783.jpg'); /* Asegúrate de usar la ruta correcta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  
 }
 
 a {
@@ -38,6 +44,7 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-decoration: underline red;
 }
 
 button {
@@ -62,7 +69,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #080808;
   }
   a:hover {
     color: #747bff;
