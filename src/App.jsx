@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import './App.css';
+import { Login } from './componentes/Login';
+import { Navbar } from './componentes/Navbar';
 import { Principal } from './componentes/Principal';
 import { Registro } from './componentes/Registro';
-import { Navbar } from './componentes/Navbar';
-import { Login } from './componentes/Login';
-import './App.css';
 
 function App() {
     return (
@@ -21,5 +21,7 @@ function App() {
 // implementar
 
 export default App;
+
+
 
 
