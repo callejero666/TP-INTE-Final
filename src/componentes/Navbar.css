@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #636262bb;
+    background-color: #636362bb;
     overflow: hidden;
     display: flex;
     position: relative;;
@@ -9,7 +9,7 @@
     display: block;
     color: #ebdc12;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     text-decoration: underline red;
 }
