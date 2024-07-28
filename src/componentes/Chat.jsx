@@ -1,9 +1,11 @@
-import { useNavigate } from 'react';
-import './ChatPage.css'; // Asegúrate de crear este archivo para estilos
+import './Chat.css';
+import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
 
-const ChatPage = () => {
+const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
+  const navigate = useNavigate();
 
   const handleSendMessage = () => {
     if (newMessage.trim()) {
@@ -15,7 +17,7 @@ const ChatPage = () => {
   return (
     <div className="chat-container">
       <div className="messages">
-        {messages.map(message => (
+        {messages.map((message) => (
           <div key={message.id} className="message">
             {message.text}
           </div>
@@ -25,13 +27,14 @@ const ChatPage = () => {
         <input
           type="text"
           value={newMessage}
-          onChange={e => setNewMessage(e.target.value)}
+          onChange={(e) => setNewMessage(e.target.value)}
           placeholder="Escribe tu mensaje..."
         />
         <button onClick={handleSendMessage}>Enviar</button>
       </div>
+      <button onClick={() => navigate('/otra-pagina')}>Ir a otra página</button>
     </div>
   );
 };
 
-export default ChatPage;
+export default Chat;
