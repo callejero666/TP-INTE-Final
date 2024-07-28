@@ -27,19 +27,19 @@
   height: 150px; /* Altura de los botones */
   font-size: 28px; /* Tamaño de la fuente del texto */
   cursor: pointer;
-  border: 2px solid hsl(288, 91%, 48%); /* Borde de los botones */
+  border: 2px solid hsl(180, 77%, 54%); /* Borde de los botones */
   border-radius: 10px; /* Bordes redondeados */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: hsl(0, 2%, 51%); /* Color de fondo */
+  background-color: hsl(303, 78%, 56%); /* Color de fondo */
   transition: background-color 0.3s ease; /* Efecto de transición al pasar el ratón */
-  text-decoration: underline black;
+  text-decoration: underline rgb(43, 223, 37);
 }
 
 .button-container button:hover {
-  background-color: hsl(0, 16%, 27%); /* Color de fondo al pasar el ratón */
+  background-color: hsl(108, 77%, 60%); /* Color de fondo al pasar el ratón */
 }
 
 @media (max-width: 768px) {
