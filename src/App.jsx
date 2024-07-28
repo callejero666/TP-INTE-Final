@@ -4,6 +4,7 @@ import { Login } from './componentes/Login';
 import { Navbar } from './componentes/Navbar';
 import { Principal } from './componentes/Principal';
 import { Registro } from './componentes/Registro';
+import  Chat  from './componentes/Chat';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path="/principal" element={<Principal />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/registro" element={<Registro />} />
+                <Route path="/chat" element={<Chat />} />
             </Routes>
         </Router>
     );
