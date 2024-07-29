@@ -11,11 +11,14 @@ export function Login() {
     };
 
     const signInWithGoogle = () => {
-        // Implement Google sign-in logic here
+        // Implementar la lógica de inicio de sesión de Google aquí
+        window.location.href = 'https://accounts.google.com/signin';
     };
 
+
     const signInWithFacebook = () => {
-        // Implement Facebook sign-in logic here
+        // Implementar la lógica de inicio de sesión de Facebook aquí
+        window.location.href = 'https://www.facebook.com/login';
     };
 
     return (
