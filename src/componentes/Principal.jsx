@@ -6,10 +6,10 @@ export function Principal() {
 
     return (
         <section>
-            <h1>Bienvenido a la Página Principal</h1>
+            <h1>LO QUE QUIERAS</h1>
             <div className="button-container">
                 <button onClick={() => navigate()}>MUSICA</button>
-                <button onClick={() => navigate()}>CHAT</button>
+                <button onClick={() => navigate('/chat')}>CHAT</button>
             </div>
         </section>
     );

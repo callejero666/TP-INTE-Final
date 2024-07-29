@@ -7,6 +7,8 @@ export function Navbar() {
             <Link to="/">Inicio</Link>
             <Link to="/login">Iniciar Sesión</Link>
             <Link to="/registro">Registro</Link>
+            <Link to="/Musica">Musica</Link>
+            <Link to="/Chat">Chat</Link>
         </nav>
     );
 }

@@ -20,7 +20,6 @@ function App() {
         </Router>
     );
 }
-// implementar
 
 export default App;
 
