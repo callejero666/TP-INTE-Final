@@ -32,7 +32,7 @@ const Chat = () => {
         />
         <button onClick={handleSendMessage}>Enviar</button>
       </div>
-      <button onClick={() => navigate('/otra-pagina')}>Ir a otra página</button>
+      <button onClick={() => navigate('/Principal')}>Ir a otra página</button>
     </div>
   );
 };
