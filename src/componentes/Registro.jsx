@@ -11,7 +11,7 @@ export function Registro() {
         const password = e.target.elements.password.value;
 
         try {
-            const response = await fetch('https://sandbox.academiadevelopers.com/api-auth/', {
+            const response = await fetch("https://sandbox.academiadevelopers.com/api-auth/", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
