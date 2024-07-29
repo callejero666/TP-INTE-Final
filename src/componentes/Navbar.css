@@ -7,11 +7,11 @@
 
 .navbar a {
     display: block;
-    color: #ebdc12;
+    color: #a3e9da;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
-    text-decoration: underline red;
+    text-decoration: underline rgb(106, 119, 93);
 }
 
 .navbar a:hover {
