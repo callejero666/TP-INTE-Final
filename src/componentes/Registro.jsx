@@ -34,9 +34,9 @@ export function Registro() {
     };
 
     return (
-        <section>
+        <section className="registro-section">
             <h1>Registro</h1>
-            <form className="Registro" onSubmit={handleRegistro}>
+            <form className="registro-form" onSubmit={handleRegistro}>
                 <input type="text" name="username" placeholder="Username" />
                 <input type="email" name="email" placeholder="Email" />
                 <input type="password" name="password" placeholder="Password" />
