@@ -7,7 +7,6 @@ export function Registro() {
     const handleRegistro = async (e) => {
         e.preventDefault();
         const username = e.target.elements.username.value;
-        const email = e.target.elements.email.value;
         const password = e.target.elements.password.value;
 
         try {
@@ -18,7 +17,6 @@ export function Registro() {
                 },
                 body: JSON.stringify({
                     username,
-                    email,
                     password,
                 }),
             });
@@ -38,7 +36,6 @@ export function Registro() {
             <h1>Registro</h1>
             <form className="registro-form" onSubmit={handleRegistro}>
                 <input type="text" name="username" placeholder="Username" />
-                <input type="email" name="email" placeholder="Email" />
                 <input type="password" name="password" placeholder="Password" />
                 <button type="submit">REGISTRARSE</button>
             </form>
