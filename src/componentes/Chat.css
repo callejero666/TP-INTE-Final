@@ -7,6 +7,10 @@
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    background-image: url('/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .chat-container .messages {
@@ -59,11 +63,13 @@
   
   .chat-container .input-container button:hover {
     background-color: hsl(0, 16%, 27%);
+    box-shadow: 0 0 5px rgba(161, 168, 146, 0.5); /* Sombra verde claro */
   }
   
   @media (max-width: 768px) {
     .chat-container .messages {
       height: 200px;
+      box-shadow: 0 0 10px rgba(230, 216, 132, 0.5); /* Sombra amarilla */
     }
   
     .chat-container .input-container input {
