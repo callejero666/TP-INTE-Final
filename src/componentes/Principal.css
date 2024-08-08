@@ -13,33 +13,35 @@
   font-size: 24px;
   margin-bottom: 20px;
   text-decoration: underline;
+  color: #2F242C;
 }
 
 .button-container {
   display: flex;
-  gap: 20px; /* Espacio entre los botones */
-  justify-content: center; /* Centra los botones horizontalmente */
-  margin-top: 30px; /* Espacio por encima del contenedor de botones */
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .button-container button {
-  width: 150px; /* Ancho de los botones */
-  height: 150px; /* Altura de los botones */
-  font-size: 28px; /* Tamaño de la fuente del texto */
+  width: 150px;
+  height: 150px;
+  font-size: 28px;
   cursor: pointer;
-  border: 2px solid hsl(180, 77%, 54%); /* Borde de los botones */
-  border-radius: 10px; /* Bordes redondeados */
+  border: 2px solid #A1A892;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: hsl(303, 78%, 56%); /* Color de fondo */
-  transition: background-color 0.3s ease; /* Efecto de transición al pasar el ratón */
-  text-decoration: underline rgb(43, 223, 37);
+  background-color: #E6D884;
+  transition: background-color 0.3s ease;
+  text-decoration: underline #2F242C;
+  color: #2F242C;
 }
 
 .button-container button:hover {
-  background-color: hsl(108, 77%, 60%); /* Color de fondo al pasar el ratón */
+  background-color: #A1A892;
 }
 
 @media (max-width: 768px) {
@@ -47,7 +49,7 @@
     font-size: 20px;
   }
   .button-container {
-    flex-direction: column; /* Cambia la dirección de los botones a columna en pantallas más pequeñas */
-    gap: 10px; /* Reduce el espacio entre los botones */
+    flex-direction: column;
+    gap: 10px;
   }
 }
