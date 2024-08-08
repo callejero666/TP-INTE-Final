@@ -1,20 +1,21 @@
 .navbar {
-    background-color: #636362bb;
+    background-color: #2F242C;
     overflow: hidden;
     display: flex;
-    position: relative;;
+    position: relative;
 }
 
 .navbar a {
     display: block;
-    color: #a3e9da;
+    color: #E5E5E5;
     text-align: center;
     padding: 15px 16px;
     text-decoration: none;
-    text-decoration: underline rgb(106, 119, 93);
+    text-decoration: underline #A1A892;
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #E6D884;
+    color: #2F242C;
 }
+
